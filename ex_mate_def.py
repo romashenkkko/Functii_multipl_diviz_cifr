@@ -54,7 +54,7 @@ def nr_max(a,b):
     if a>b:
         return print("g) Numarul maxim este: ",a)
     else:
-        return print("g) Numarul maxim este: ",a)
+        return print("g) Numarul maxim este: ",b)
 
 #8h
 def suma_nedef():
