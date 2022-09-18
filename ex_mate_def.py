@@ -1,7 +1,11 @@
 #1a
 def suma(a,b):
-    c=a+b
-    return print("a) Suma numerelor ",a," si ",b," este: ",c)
+    try:
+        c=a+b
+        return print("a) Suma numerelor ",a," si ",b," este: ",c)
+    except:
+        a,b= int(input('dati o valoare: '))
+
 
 #2b
 def produsul(a,b):
@@ -147,30 +151,30 @@ def acelasi_nr_diviz(a,b):
 q= int(input('a: '))
 w= int(input('b: '))
 #1
-print(suma(q,w))
+suma(q,w)
 #2
-print(produsul(q,w))
+produsul(q,w)
 #3
-print(media_aritmetica(q,w))
+media_aritmetica(q,w)
 #4
-print(c_m_mare_div_comun(q,w))
+c_m_mare_div_comun(q,w)
 #5
-print(c_m_mic_multiplu_comun(q,w))
+c_m_mic_multiplu_comun(q,w)
 #6
-print(nr_min(q,w))
+nr_min(q,w)
 #7
-print(nr_max(q,w))
+nr_max(q,w)
 #8
-print(suma_nedef())
+suma_nedef()
 #9
-print(produs_nedef())
+produs_nedef()
 #10
-print(divizorii_comuni(q,w))
+divizorii_comuni(q,w)
 #11
-print(cinci_multipli_comuni(q,w))
+cinci_multipli_comuni(q,w)
 #12
-print(cifre_comune(q,w))
+cifre_comune(q,w)
 #13
-print(dif_cif_num(q,w))
+dif_cif_num(q,w)
 #14
-print(acelasi_nr_diviz(q,w))
+acelasi_nr_diviz(q,w)
