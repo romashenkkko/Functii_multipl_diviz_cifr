@@ -1,11 +1,7 @@
 #1a
 def suma(a,b):
-    try:
-        c=a+b
-        return print("a) Suma numerelor ",a," si ",b," este: ",c)
-    except:
-        a,b= int(input('dati o valoare: '))
-
+    c=a+b
+    return print("a) Suma numerelor ",a," si ",b," este: ",c)
 
 #2b
 def produsul(a,b):
