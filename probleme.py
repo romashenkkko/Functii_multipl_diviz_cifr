@@ -53,7 +53,7 @@ def min(a,b):
 #bzbzFINAL2
 def min_max(a1,a2,a3,a4,a5,a6,a7,a8,a9,a10):
     S=max(min(a1,a2),max(a3,a4))+min(max(a5,a6),min(a7,a8))
-    T=min(a1,a2)+min(a3,a4)+min(a5,a6)+min(a7,a8)+min(a9,a10)
+    T=min(a1,a2)+min(a3,a4)+min(a5,a6)+min(a7,a8)+min(a9,a10)+max(a1,a2)+max(a3,a4)+max(a5,a6)+max(a7,a8)+max(a9,a10)
     return print ("S=",S,", iar T=",T)
 
 e=int(input("Dati I-ul nr: "))
